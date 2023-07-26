@@ -1,0 +1,98 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 35px;
+}
+
+.cartItem img {
+    width: 200px;
+    padding-left: 4em;
+}
+
+.cartItem .detail {
+    width: 100%;
+    font-size: 30px;
+}
+  
+.countHandler input {
+    width: 50px;
+    text-align: center;
+    font-weight:bold;
+}
+.countHandler button {
+    width: 30px;
+    text-align: center;
+    font-weight:bold;
+    margin: 0px 5px 0px 5px;
+}
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: #0d4463;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+.emptyCart {
+    text-align: center;
+
+}
+
+.okBtn  {
+    width: 150px;
+    height: 50px;
+    background-color: #46ae49da;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+.cancelBtn  {
+    width: 150px;
+    height: 50px;
+    background-color:  #da3737;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.checkoutTitle {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .voucherSelect {
+    text-align: center;
+  }
+
+  .evaluate {
+    width: 150px;
+    height: 50px;
+    background-color: #0d4463;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+  }
